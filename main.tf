@@ -3,12 +3,6 @@ provider "aws" {
   profile = "${var.profile}"
 }
 
-/*
- *  provides:
- *    • secure S3 bucket with versioning and encryption
- *    • locking of state file writes via dynamo db table
- */
-
 # aws_kms_key._
 resource "aws_kms_key" "_" {
   description = "bucket encryption key"
