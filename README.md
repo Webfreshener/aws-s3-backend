@@ -1,5 +1,5 @@
 # AWS S3 Backend
-Terraform backend for S3 using DynamoDB and Secure S3 Bucket with versioning
+Terraform Backend with Secured and Versioned S3 Bucket using DynamoDB
 
 #### provides:
 
